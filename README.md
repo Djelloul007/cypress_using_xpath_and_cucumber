@@ -45,3 +45,6 @@ cypress using xpath and cucumber
 - run "npm install"
 - run "npx cypress open"
 
+have fun
+best regard
+Djelloul Belarbi
