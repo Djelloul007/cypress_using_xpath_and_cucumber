@@ -39,3 +39,9 @@ cypress using xpath and cucumber
 - add logintest.feature file to ./cypress/integration/logintest
 - add loginpage.js file to ./cypress/integration/logintest/logintest
 - add logintest.js file to ./cypress/integration/logintest/logintest
+
+## to run this example
+- Clone the repo or Download
+- run "npm install"
+- run "npx cypress open"
+
