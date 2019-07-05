@@ -32,7 +32,7 @@ cypress using xpath and cucumber
 
 ## implemntation
 
-- test goal to login in the ExecuteAutomation page & to check if the h2 element exist
+- Test target to log in to the ExecuteAutomation page and check if element h2 exists
 
 - create logintest folder ./cypress/integration/logintest
 - create logintest folder ./cypress/integration/logintest/logintest
