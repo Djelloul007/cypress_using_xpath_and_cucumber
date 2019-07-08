@@ -1,4 +1,4 @@
-# cypress using xpath and cucumber
+# cypress using xpath and cucumber and Page Object
 
 cypress using xpath and cucumber
 
@@ -32,10 +32,19 @@ cypress using xpath and cucumber
 
 ## implemntation
 
-- test goal to login in the ExecuteAutomation page & to check if the h2 element exist
+- Test target to log in to the ExecuteAutomation page and check if element h2 exists
 
 - create logintest folder ./cypress/integration/logintest
 - create logintest folder ./cypress/integration/logintest/logintest
 - add logintest.feature file to ./cypress/integration/logintest
 - add loginpage.js file to ./cypress/integration/logintest/logintest
 - add logintest.js file to ./cypress/integration/logintest/logintest
+
+## to run this example
+- Clone the repo or Download
+- run "npm install"
+- run "npx cypress open"
+
+have fun
+best regard
+Djelloul Belarbi
