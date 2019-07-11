@@ -5,5 +5,10 @@
   "baseUrl": "http://eaapp.somee.com",
   "env": {
     "username": "admin"
-  }
+  },
+ "projectId": "demotest",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "configFile": "reporterOptions.json"
+    }
 }

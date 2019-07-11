@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-07-08T10:36:57.787Z",
+    "end": "2019-07-08T10:37:14.413Z",
+    "duration": 16626,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "a260c7f1-27af-4b5f-9974-12a1698086ac",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "4d56e640-68b7-4100-ae90-2e3d7f78745a",
+        "title": "EATestFeature",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Test the login feature",
+            "fullTitle": "EATestFeature Test the login feature",
+            "duration": 16498,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => stepTest.call(this, step));\n}\nscenario.steps.forEach(step => stepTest.call(this, step));",
+            "err": {},
+            "isRoot": false,
+            "uuid": "f2351f2c-90f9-41c6-9120-b6df82bcb429",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "f2351f2c-90f9-41c6-9120-b6df82bcb429"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 16498,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}

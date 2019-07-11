@@ -41,9 +41,10 @@ cypress using xpath and cucumber
 - add logintest.js file to ./cypress/integration/logintest/logintest
 
 ## to run this example
+
 - Clone the repo or Download
 - run "npm install"
-- run "npx cypress open"
+- run "npx cypress open" or "npx cypress run"
 
 have fun
 best regard

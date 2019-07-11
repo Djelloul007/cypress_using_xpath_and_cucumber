@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-07-08T10:44:12.821Z",
+    "end": "2019-07-08T10:44:19.614Z",
+    "duration": 6793,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "1fb58ad2-ef32-416b-a24e-c5095c81e7ea",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "47477ac1-8067-4270-a026-f898cc5d810e",
+        "title": "EATestFeature",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "Test the login feature",
+            "fullTitle": "EATestFeature Test the login feature",
+            "duration": 6493,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "if (backgroundSection) {\n  backgroundSection.steps.forEach(step => stepTest.call(this, step));\n}\nscenario.steps.forEach(step => stepTest.call(this, step));",
+            "err": {},
+            "isRoot": false,
+            "uuid": "dc2186b8-2bcd-454c-b288-6748c966c3ea",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "dc2186b8-2bcd-454c-b288-6748c966c3ea"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 6493,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}
