@@ -1,14 +1,17 @@
 {
-  "ignoreTestFiles": ["*.js", "*.md"],
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
   "video": true,
   "screenshotsFolder": "cypress/videos",
   "baseUrl": "http://eaapp.somee.com",
   "env": {
     "username": "admin"
   },
- "projectId": "demotest",
-    "reporter": "cypress-multi-reporters",
-    "reporterOptions": {
-        "configFile": "reporterOptions.json"
-    }
+  "projectId": "fnofru",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporterOptions.json"
+  }
 }

@@ -2,7 +2,7 @@
   "devDependencies": {
     "@cypress/code-coverage": "^1.6.2",
     "babel-plugin-istanbul": "^5.1.4",
-    "cypress": "^3.4.0",
+    "cypress": "^5.4.0",
     "cypress-cucumber-preprocessor": "^1.10.0",
     "cypress-multi-reporters": "^1.1.22",
     "cypress-xpath": "^1.4.0",
@@ -23,6 +23,7 @@
     "instrument": "nyc instrument --compact false src build/src",
     "cp": "cp src/*.css build/src && cp src/*.png build/src && cp index.html build",
     "clean": "rm -rf build .nyc_output || true",
+	"cy:dashboard":"npx cypress run --record --key 179eb498-b873-45d0-b755-83600fa644ab"
     "report:coverage": "nyc report --reporter=html"
   }
 }
